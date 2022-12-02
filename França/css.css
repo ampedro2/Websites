@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
+
+    :root {
+
+    /*    FONTS    */
+
+    --bodytext: 'Saira Extra Condensed', sans-serif;
+    --titletext: 'Rozha One', serif;
+
+    /*    FONT SIZES    */
+    --bodysize: 16px;
+    --title1: 40px;
+    
+}
+
+/*    BODY    */
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*    TEXT    */
+
+#h1 {
+    font-family: var(--bodytext);
+    font-size: 90px;
+    margin: 0; 
+    text-align: center;
+}
+
+#h2{
+    font-family: var(--bodytext);
+    font-size: 75px;
+}
+
+#dot{
+    display: inline; 
+    color: white;
+    font-family: var(--titletext);
+    font-size: 20px;
+}
+
+#franca{
+    width: 100%;   
+    height: 100%;
+    font-size: 10vw;
+}
+
+#spaneconomia{
+    padding-left: 3vw;  
+    padding-top : 5vw; 
+    float: left;
+    font-family: var(--bodytext);
+    font-size: 75px;
+}
+
+#textopolitica{
+    font-family: var(--bodytext);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8%; 
+    padding-left: 5vw; 
+    padding-right:  5vw;
+}
+
+#textohistoria{
+    font-family: var(--bodytext);
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5vw; 
+    padding-right:  5vw;
+}
+
+#textocultura{
+    padding-left: 25vw; 
+    padding-right:  25vw;
+    font-family: var(--bodytext);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8%; 
+}
+
+#textoeconomia{
+    padding-left: 5vw; 
+    padding-right: 5vw;
+    font-family: var(--bodytext);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footertexto{
+    font-family: var(--titletext);
+    font-size: 15px;
+    padding-left: 1.7%;
+    padding-top: 1% ;
+}
+
+#blacktitle{
+    font: var(--titletext);
+    font-size:calc(12px + 1vw);
+    min-width: 10px;
+    min-height: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: black;
+    padding-left: 2.2%;
+    padding-right: 2.2%;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 15px;
+}
+
+#blacktitle:hover{
+    background-color: white;
+    color: black;
+}
+
+/*   IMAGES   */
+
+#eiffel{
+    position: absolute;
+    font-family: var(--titletext);
+    top: 10%;
+    text-align: center;
+    background-image: url(pictures/torre.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48%;
+    width: 100%;
+}
+
+#bandeiras{
+    min-width: 210px; 
+    min-height: 160px; 
+    border: 1px solid black; 
+    width: 37vw; height: 28vw; 
+    border-radius: 5vw; 
+    position: absolute; 
+    left: 3vw;
+}
+
+#euroimg{
+    min-width: 350px; 
+    min-height: 180px; 
+    float: right; 
+    width: 50vw; 
+    height: 30vw;
+}
+
+#parlamentoimg{
+    float: left; 
+    min-width: 350px; 
+    min-height: 180px; 
+    width: 50vw; 
+    height: 30vw;
+}
+
+#louvre{
+    border-radius: 5vw;
+    min-width: 240px;
+    min-height: 160px;
+    width: 36vw;
+    height: 22vw;
+    padding-bottom: 20px;
+    float: left;
+}
+
+#arc{
+    border-radius: 5vw;
+    width: 36vw;
+    height: 22vw;
+    min-width: 240px;
+    min-height: 160px;
+    float: right;
+}
+
+#imagemcultura{
+    min-width: 130px; 
+    min-height: 200px; 
+    width: 26vw; 
+    height: 38vw;
+}
+
+/*    DIVS    */
+
+#fotos{
+    position: absolute;
+    font-family: var(--titletext);
+    background-image: url(pictures/fundo.png);
+    top: 58%;
+    min-height: 475px;
+    height: 31vw;
+    width: 100%;
+}
+
+#parlamento{
+    width: 100%;
+}
+
+#historia{
+    /*top: 135%;*/
+    top:calc(130% + 2vw);
+    position: absolute;
+    width: 100%;
+}
+
+#divtop{
+    font-family: var(--bodytext);
+    position: absolute;
+    top: 0;
+    padding-top: 2%;
+    text-align: center;
+    background-color: black;
+    height: 9%;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+#divcultura{
+    position: absolute; 
+    top: 158%; 
+    right: 3vw;
+}
+
+#divfooter{
+    position: absolute; 
+    height: 50px; 
+    top: 207%; 
+    width: 100%; 
+    background-color: black; 
+    color: white;
+}
+
+#cultura{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 115%;
+    height: 40%;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#economia{
+    height: 300px;
+}
+
+#branco{
+    padding-top: 14vw;
+}
+
+/*    MOBILE    */
+
+@media screen and (max-width: 1200px) {
+    #divfooter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #fotos {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #bandeiras {
+        top: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #branco {
+        padding-top: 260px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #ajustador {
+        display: none;
+    }
+}

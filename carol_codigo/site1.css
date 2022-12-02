@@ -1,0 +1,788 @@
+/* IMPORT FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+/*VARIAVEIS*/
+
+:root {
+    /*FONTES*/
+    --titulos: 'Playfair Display', serif;
+    --body: 'Ubuntu', sans-serif;
+    /*TAMANHOS DAS FONTES*/
+    --titulos: 48px;
+    --subtitulo: 36px;
+    --textoheader: 30px;
+    --texto: 24px;
+    --footer: 18px;
+    /*CORES*/
+    --branco: #ffffff;
+    --preto: #000000;
+    --amarelo: #ffe6a5;
+    --azul: #a6c8c4;
+    --castanho: #efb75d;
+    --corfooter: rgba(183, 92, 18, 0.82);
+    --cinzento: rgba(186, 178, 178, 0.4);
+    /*SIZES*/
+    --size100: 100%;
+    --size75: 75%;
+    --size50: 50%;
+    --size25: 25%;
+    --size33: 33, 33%;
+}
+
+body {
+    background-color: var(--azul);
+    display: flex;
+    width: var(--size100);
+    justify-content: center;
+
+}
+
+#main {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    width: var(--size75);
+}
+
+#menu {
+    background-color: var(--branco);
+    height: 7vw;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--titulos);
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+#d1{
+    position: relative; 
+    bottom: 12%; 
+    left: 18%; 
+    text-align: center;
+}
+
+#quadrado2{
+    position: relative; 
+    bottom: 32%; 
+    left: 60%; 
+    text-align: center;
+}
+
+#d2{
+    position: relative; 
+    top: 13%; 
+    left: 21%; 
+    text-align: center;
+}
+
+#d3{
+    position: relative; 
+    left: 30%; 
+    top: 13%; 
+    text-align: center;
+}
+
+#d4{
+    position: relative; 
+    left: 37%; 
+    top: 13%;
+}
+
+#d5{
+    position: relative; 
+    left: -49%; 
+    top: 80%; 
+    text-align: center;
+}
+
+#d6{
+    position: relative; 
+    top: 13%; 
+    left: 15%; 
+    text-align: center;
+}
+
+#d7{
+    position: relative; 
+    top: 55%; 
+    left: -25.5%; 
+    text-align: center;
+}
+
+#d8{
+    position: relative; 
+    left: -12%; 
+    top: 13%;
+}
+
+#d9{
+    position: relative; 
+    left: 32%; 
+    top: -27%;
+}
+
+#d10{
+    position: relative; 
+    bottom: -64%; 
+    left: -35%; 
+    text-align: center;
+}
+
+#lisboa {
+    width: var(--size25);
+    font-size: 3vw;
+    padding-left: 8%;
+    padding-top: 2%;
+    
+}
+
+span{
+    text-align: center;
+    font-family: var(--titulos);
+}
+
+#menupt2 {
+  width: var(--size100);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 2.5vw; 
+    
+}
+
+#b-cul, #b-hist, #b-geo {
+    width: 20%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+}
+
+#b-cul:hover{
+    color: #01A9DB;
+}
+
+#b-hist:hover{
+    color: #01A9DB;
+}
+
+#b-geo:hover{
+    color: #01A9DB;
+}
+
+p{
+    font-size: calc(1.3vw - 0.2vw);
+    font-family: var(--body);
+}
+
+a,
+#b-cul,
+#b-cul:link,
+#b-cul:visited {
+    text-decoration: none;
+    color: var(--preto);
+
+}
+
+#b-cul:hover {
+    color: var (--castanho);
+}
+
+#b-cul:active {
+    color: green;
+}
+
+#img-header {
+    background-image: url(lisboa-header.jpg);
+    height: 43vw;
+    background-repeat: no-repeat;
+    width: var(--size100);
+}
+
+#quadrados-texto{
+    width: 17vw;
+    height: 17vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto1{
+    width: 17vw;
+    height: 17vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto9{
+    width: 17vw;
+    height: 17vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto10{
+    width: 17vw;
+    height: 17vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto2{
+    width: 17vw;
+    height: 44vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto7{
+    width: 17vw;
+    height: 42vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto3{
+    width: 42vw;
+    height: 20vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto4{
+    width: 30vw;
+    height: 18vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto8{
+    width: 30vw;
+    height: 18vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto5{
+    width: 40vw;
+    height: 18vw;
+    background-color: var(--amarelo);
+}
+
+#quadrados-texto6{
+    width: 55.5vw;
+    height: 31vw;
+    background-color: var(--amarelo);
+}
+
+
+#quadrado-geografia
+{
+    width: 40vw;
+    height: 18vw;
+    padding-left: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    font-size: 3.2vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 2vw;
+    box-sizing: border-box;
+}
+
+#quadrado-fundo{
+    width: 17vw;
+    height: 17vw;
+    padding-left: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    font-family: var(--body);
+    font-size: 1.7vw;
+    z-index: 50;
+    padding: 1vw;
+    padding-bottom: 40px;
+    padding-top: 3vw;
+    box-sizing: border-box;
+}
+
+#quadrado-fundo1{
+    width: 17vw;
+    height: 17vw;
+    padding-left: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    font-family: var(--body);
+    font-size: 1.7vw;
+    z-index: 50;
+    padding: 1vw;
+    padding-bottom: 40px;
+    padding-top: 3vw;
+    box-sizing: border-box;
+}
+
+#quadrado-teatro{
+    width: 17vw;
+    height: 17vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-image: url(teatro.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+#quadrado-museu{
+    width: 17vw;
+    height: 17vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-image: url(museu.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+#quadrado-parque{
+    width: 42vw;
+    height: 20vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-image: url(parque.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#quadrado-quadro{
+    width: 30vw;
+    height: 18vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-image: url(quadro.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#quadrado-padrao{
+    width: 30vw;
+    height: 18vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-image: url(padrao.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#quadrado-cultura
+{
+    width: 17vw;
+    height: 44vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    font-size: 3.2vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 2vw;
+    box-sizing: border-box;
+}
+
+#quadrado-historia
+{
+    width: 17vw;
+    height: 42vw;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--azul);
+    position: relative; 
+    top: -1vw;
+    left: -1vw;
+    font-size: 3.2vw;
+    z-index: 50;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 2vw;
+    box-sizing: border-box;
+}
+
+
+#break1 {
+    height: 7vw;
+    display: none;
+}
+
+#cultura {
+    background-color: var(--castanho);
+    height: 36vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 11%;
+}
+
+#break2 {
+    height: 360px;
+}
+
+#historia {
+    background-color: var(--castanho);
+    height: 53vw;
+    display: flex;
+    justify-content: center;
+}
+
+#break3 {
+    height: 20vw;
+}
+
+#geografia {
+    background-color: var(--castanho);
+    height: 39vw;
+    display: flex;
+    justify-content: center;
+}
+
+#break4 {
+    height: 14vw;
+}
+
+#video{
+    width: 56vw;
+    height: 31.5vw;
+    top: -20px; 
+    left: -20px; 
+    position: relative;
+    box-sizing: border-box;
+}
+
+#header-container{
+    top: 0;
+}
+
+footer {
+    background-color: var(--corfooter);
+    height: 15vw;
+    display: flex;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 4vw;
+
+}
+
+#footertext {
+    margin: auto;
+    width: var(--size100);
+    font-family: var(--body);
+    font-size: 2vw;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1100px) {
+    #break1{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #main {
+        width: 100%;
+    }
+
+    body{
+        width: 361px;
+    }
+
+    #menu{
+        height: 40px;
+    }
+
+    #lisboa{
+        font-size: 30px;
+        padding-left: 2%;
+    }
+
+    #menupt2{
+        font-size: 14px;
+        padding-top: 2.5%;
+    }
+
+    #img-header{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+
+    body{
+        background-color: white;
+    }
+
+    #quadrados-texto{
+        width: 120px;
+        height: 120px;
+        left: -5%;
+        position: absolute;
+    }
+
+    #quadrado-fundo{
+        width: 120px;
+        height: 120px;
+        font-size: 13px;
+        top: -5%;
+        left: -5%;
+        padding: 10%;
+        position: absolute;
+    }
+
+    #quadrado-fundo1{
+        width: 120px;
+        height: 120px;
+        font-size: 13px;
+        top: -7px;
+        left: -7%;
+        padding: 10%;
+        position: absolute;
+    }
+
+    #quadrado2{
+        top: -36%;
+    }
+
+    #historia{
+       position: relative;
+       height: 1100px;
+       top: 400px;
+    }
+
+    #geografia{
+        position: relative;
+        top: 400px;
+        height: 400px;
+    }
+
+    #cultura{
+        top: 6%;
+        height: 1250px;
+    }
+
+    #quadrado-cultura{
+        position: absolute;
+        height: 661px;
+        width: 255px;
+        font-size: 30px;
+        padding-top: 20px ;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    #quadrados-texto1{
+        width: 120px;
+        height: 120px;
+        top: 64px;
+        position: absolute;
+    }
+
+    #quadrados-texto2{
+        left: -130px;
+        top: -15%;
+        height: 661px;
+        width: 255px;
+        position: relative;
+    }
+
+    #quadrados-texto4{
+        left: 75%;
+        top: 2%;
+        width: 315px;
+        height: 165px;
+        position: relative;
+    }
+
+    #quadrados-texto3{
+        width: 303px;
+        height: 153px;
+        top: -310px;
+        left: -100px;
+        position: absolute;
+    }
+
+    span{
+        text-align: center;
+    }
+
+    #quadrado-parque{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+    }
+
+    #quadrado-museu{
+        position: absolute;
+        background-size: 100%;
+        width: 300px;
+        height: 150px;
+    }
+
+    #quadrado-teatro{
+        position: absolute;
+        background-size: 100%;
+        width: 300px;
+        height: 150px;
+    }
+
+    #quadrado-quadro{
+        position: absolute;
+        background-size: 100%;
+        width: 300px;
+        height: 150px;
+    }
+    #quadrado-padrao{
+        position: absolute;
+        background-size: 100%;
+        width: 300px;
+        height: 150px;
+    }
+
+    #quadrado-geografia{
+        width: 300px;
+        height: 260px;
+        font-size: 25px;
+    }
+
+    #quadrado-historia{
+        height: 661px;
+        width: 255px;
+        font-size: 30px;
+        padding-top: 20px ;
+    }
+
+    #quadrados-texto4{
+        position: absolute;
+        top: 740px;
+        left: -203px;
+        width: 304px;
+        height: 154px;
+    }
+
+    #quadrados-texto5{
+        position: absolute;
+        top: -280px;
+        width: 305px;
+        height: 265px;
+        left: -25px;
+    }
+    
+    #textogeografia{
+        font-size: 15px;
+    }
+
+    #quadrados-texto7{
+        top: -170px;
+        left: -80px;
+        width: 255px;
+        height: 660px;
+        position: absolute;
+    }
+
+    #quadrados-texto6{
+        width: 290px;
+        height: 190px;
+        position: absolute;
+        top: 420px;
+        left: -250px;
+    }
+    
+    #video{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+    }
+
+    #quadrados-texto8{
+        position: absolute;
+        top: 80px;
+        left: -54px;
+        width: 303px;
+        height: 154px;
+    }
+
+    #quadrados-texto9{
+        position: absolute;
+        width: 303px;
+        height: 153px;
+        top: 710px;
+        left: -99px;
+    }
+
+    #quadrados-texto10{
+        width: 303px;
+        height: 153px;
+        top: 898px;
+        left: -130px;
+        position: absolute;
+    }
+
+    footer{
+        position: absolute;
+        top: 3650px;
+        width: 360px;
+        height: 120px;
+        padding-bottom: 20px;
+    }
+    #footertext{
+        font-size: 20px;
+    }
+}
